@@ -8,12 +8,14 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="hero-header">
+    <header>
       <!-- Profile Name and Navigation Links -->
-      <div class="navbar">
+      <div class="student-name">
         <h1>Student Name</h1>
+      </div>
+      <div class="nav-links">
         <nav>
-          <ul class="nav-links">
+          <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">Portfolio</a></li>
             <li><a href="#">Contact</a></li>
@@ -21,7 +23,7 @@
         </nav>
       </div>
       <!-- Profile Picture and Introduction -->
-      <img src="images/responsive-layout-profile.png" alt="profile image" />
+      <img class="profile-img" src="images/responsive-layout-profile.png" alt="profile image" />
       <p>
         Hi! I'm a front-end developer who loves responsive design and css. I
         recently finished learning front-end web development at Treehouse and am
@@ -30,11 +32,11 @@
     </header>
     <!-- Profile Gallery and Descriptions -->
     <main>
-      <div class="main-content">
         <section>
           <h2>Portfolio</h2>
+          <div class="main-content">
           <div class="portfolio">
-            <img
+            <img class="project-img"
               src="images/portfolio-1.png"
               alt="marketing page portfolio image"
             />
@@ -45,7 +47,7 @@
             </p>
           </div>
           <div class="portfolio">
-            <img
+            <img class="project-img"
               src="images/portfolio-2.png"
               alt="search page portfolio image"
             />
@@ -56,7 +58,7 @@
             </p>
           </div>
           <div class="portfolio">
-            <img
+            <img class="project-img"
               src="images/portfolio-3.png"
               alt="travel app portfolio image"
             />
@@ -67,7 +69,7 @@
             </p>
           </div>
           <div class="portfolio">
-            <img
+            <img class="project-img"
               src="images/portfolio-4.png"
               alt="map of favorite spots portfolio image"
             />
@@ -78,7 +80,7 @@
             </p>
           </div>
           <div class="portfolio">
-            <img
+            <img class="project-img"
               src="images/portfolio-5.png"
               alt="photo gallery portfolio image"
             />
@@ -89,7 +91,7 @@
             </p>
           </div>
           <div class="portfolio">
-            <img
+            <img class="project-img"
               src="images/portfolio-6.png"
               alt="calculator portfolio image"
             />
@@ -105,27 +107,24 @@
 
     <footer>
       <!-- Contact Info/Footer -->
-      <div class="contact-info">
+      <div id="contact-info">
         <h2>Contact</h2>
         <p>
           If you're interested in chatting or want more information about what
           I've been working on, I'd love to hear from you!
         </p>
-        <h3>Phone</h3>
-        <p><a href="tel:+1111-555-1234">+1(111) 555-1234</a></p>
-        <h3>Email</h3>
+        <address>
+        <h4>Phone</h4>
+        <p><a href="tel:+1111-555-1234">+1(111) 555-1234</a></p><br>
+        <h4>Email</h4>
         <p><a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
-      </div>
+        </div> 
+      </address>
       <!-- Profile Name and Navigation Links in Footer Container -->
+     <hr>
       <div class="footer-menu">
-        <h1>Student Name</h1>
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </nav>
+        <h5>Student Name</h5>
+        <p>Back to top</p>
       </div>
     </footer>
   </body>
