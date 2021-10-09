@@ -10,29 +10,31 @@
   <body>
     <header>
       <!-- Profile Name and Navigation Links -->
-      <div class="student-name">
+      <div class="menu-wrapper" id="home">
         <h1>Student Name</h1>
-      </div>
       <div class="nav-links">
         <nav>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home"><strong>Home</strong></a></li>
+            <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
+            <li><a href="#contact-info"><strong>Contact</strong></a></li>
           </ul>
         </nav>
       </div>
+      </div>
       <!-- Profile Picture and Introduction -->
+      <div class="hero">
       <img class="profile-img" src="images/responsive-layout-profile.png" alt="profile image" />
       <p>
         Hi! I'm a front-end developer who loves responsive design and css. I
         recently finished learning front-end web development at Treehouse and am
         excited to put all my skills to use!
       </p>
+    </div>
     </header>
     <!-- Profile Gallery and Descriptions -->
     <main>
-        <section>
+        <section id="portfolio">
           <h2>Portfolio</h2>
           <div class="main-content">
           <div class="portfolio">
@@ -116,15 +118,15 @@
         <address>
         <h4>Phone</h4>
         <p><a href="tel:+1111-555-1234">+1(111) 555-1234</a></p><br>
-        <h4>Email</h4>
-        <p><a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
+        <h4 class="email">Email</h4>
+        <p class="email"><a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
         </div> 
       </address>
       <!-- Profile Name and Navigation Links in Footer Container -->
      <hr>
       <div class="footer-menu">
         <h5>Student Name</h5>
-        <p>Back to top</p>
+        <p><a href="#home">Back to top</a></p>
       </div>
     </footer>
   </body>
