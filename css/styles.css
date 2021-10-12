@@ -133,11 +133,7 @@ hr {
   .hero p {
     margin-top: 40px;
   }
-
-  /* .portfolio {
-    display: flex;
-  } */
-  .project-img {
+  .main-content {
     display: flex;
   }
 }
