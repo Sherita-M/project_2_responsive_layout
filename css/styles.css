@@ -135,6 +135,21 @@ hr {
   }
   .main-content {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .portfolio {
+    flex: 1 50%;
+    margin: 0 0 auto;
+    padding: 0.7em;
+  }
+
+  #footer-nav ul li {
+    float: right;
+    display: inline-block;
+  }
+  .footer-menu p {
+    visibility: hidden;
   }
 }
 
@@ -142,8 +157,28 @@ hr {
   .menu-wrapper {
     display: flex;
     justify-content: space-between;
+    margin: 1rem;
+    padding: 0 20px;
   }
 
+  .hero {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-img {
+    padding-right: 60px;
+  }
+
+  .profile-img {
+    flex: 1 50%;
+    margin: 0 0 auto;
+  }
+  .hero p {
+    padding-bottom: 200px;
+    width: 70%;
+  }
   .portfolio {
+    flex: 1 30%;
   }
 }
