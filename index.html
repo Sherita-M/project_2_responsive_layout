@@ -12,33 +12,44 @@
       <!-- Profile Name and Navigation Links -->
       <div class="menu-wrapper" id="home">
         <h1>Student Name</h1>
-      <div class="nav-links">
-        <nav>
-          <ul>
-            <li><a href="#home"><strong>Home</strong></a></li>
-            <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
-            <li><a href="#contact-info"><strong>Contact</strong></a></li>
-          </ul>
-        </nav>
-      </div>
+        <div class="nav-links">
+          <nav>
+            <ul>
+              <li>
+                <a href="#home"><strong>Home</strong></a>
+              </li>
+              <li>
+                <a href="#portfolio-section"><strong>Portfolio</strong></a>
+              </li>
+              <li>
+                <a href="#contact"><strong>Contact</strong></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
       <!-- Profile Picture and Introduction -->
       <div class="hero">
-      <img class="profile-img" src="images/responsive-layout-profile.png" alt="profile image" />
-      <p>
-        Hi! I'm a front-end developer who loves responsive design and css. I
-        recently finished learning front-end web development at Treehouse and am
-        excited to put all my skills to use!
-      </p>
-    </div>
+        <img
+          class="profile-img"
+          src="images/responsive-layout-profile.png"
+          alt="profile image"
+        />
+        <p>
+          Hi! I'm a front-end developer who loves responsive design and css. I
+          recently finished learning front-end web development at Treehouse and
+          am excited to put all my skills to use!
+        </p>
+      </div>
     </header>
     <!-- Profile Gallery and Descriptions -->
     <main>
-        <section id="portfolio-section">
-          <h2>Portfolio</h2>
-          <div class="main-content">
+      <section id="portfolio-section">
+        <h2>Portfolio</h2>
+        <div class="main-content">
           <div class="portfolio">
-            <img class="project-img"
+            <img
+              class="project-img"
               src="images/portfolio-1.png"
               alt="marketing page portfolio image"
             />
@@ -49,7 +60,8 @@
             </p>
           </div>
           <div class="portfolio">
-            <img class="project-img"
+            <img
+              class="project-img"
               src="images/portfolio-2.png"
               alt="search page portfolio image"
             />
@@ -60,7 +72,8 @@
             </p>
           </div>
           <div class="portfolio">
-            <img class="project-img"
+            <img
+              class="project-img"
               src="images/portfolio-3.png"
               alt="travel app portfolio image"
             />
@@ -71,7 +84,8 @@
             </p>
           </div>
           <div class="portfolio">
-            <img class="project-img"
+            <img
+              class="project-img"
               src="images/portfolio-4.png"
               alt="map of favorite spots portfolio image"
             />
@@ -82,7 +96,8 @@
             </p>
           </div>
           <div class="portfolio">
-            <img class="project-img"
+            <img
+              class="project-img"
               src="images/portfolio-5.png"
               alt="photo gallery portfolio image"
             />
@@ -93,7 +108,8 @@
             </p>
           </div>
           <div class="portfolio">
-            <img class="project-img"
+            <img
+              class="project-img"
               src="images/portfolio-6.png"
               alt="calculator portfolio image"
             />
@@ -103,8 +119,17 @@
               button and get the result.
             </p>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </section>
     </main>
 
     <footer>
@@ -115,27 +140,47 @@
           If you're interested in chatting or want more information about what
           I've been working on, I'd love to hear from you!
         </p>
-        <address>
-        <h4>Phone</h4>
-        <p><a href="tel:+1111-555-1234">+1(111) 555-1234</a></p><br>
-        <h4 class="email">Email</h4>
-        <p class="email"><a href="mailto:email@yoursite.com">email@yoursite.com</a></p>
-        </div> 
-      </address>
-      <!-- Profile Name and Navigation Links in Footer Container -->
-     <hr>
-      <div class="footer-menu">
-        <h5>Student Name</h5>
-        <p><a href="#home">Back to top</a></p>
+        <div id="contact">
+          <p>
+            Phone
+            <span class="contact-info"
+              ><a href="tel:+1(111) 555-1234"
+                ><strong>+1(111) 555-1234</strong></a
+              ></span
+            >
+          </p>
+          <p>
+            Email
+            <span class="contact-info"
+              ><a href="mailto:email@yoursite.com"
+                ><strong>email@yoursite.com</strong></a
+              ></span
+            >
+          </p>
+        </div>
       </div>
-      <div id="footer-nav">
-        <nav>
-          <ul>
-            <li><a href="#home"><strong>Home</strong></a></li>
-            <li><a href="#portfolio"><strong>Portfolio</strong></a></li>
-            <li><a href="#contact-info"><strong>Contact</strong></a></li>
-          </ul>
-        </nav>
+      <!-- Profile Name and Navigation Links in Footer Container -->
+      <hr />
+      <div class="bottom-nav">
+        <div class="footer-menu">
+          <h5>Student Name</h5>
+          <p><a href="#home">Back to top</a></p>
+        </div>
+        <div id="footer-nav">
+          <nav>
+            <ul>
+              <li>
+                <a href="#home"><strong>Home</strong></a>
+              </li>
+              <li>
+                <a href="#portfolio-section"><strong>Portfolio</strong></a>
+              </li>
+              <li>
+                <a href="#contact"><strong>Contact</strong></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </footer>
   </body>
