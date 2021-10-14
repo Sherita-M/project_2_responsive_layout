@@ -89,13 +89,6 @@ footer {
   padding: 0 20px 30px 20px;
 }
 
-address {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-}
-
 hr {
   border: 1px solid #58a1be;
   margin: 50px 20px 0px 20px;
@@ -128,9 +121,27 @@ h5 {
   padding-left: 10px;
 }
 
+#contact p a {
+  color: #026a7c;
+}
+
+#skills {
+  padding-bottom: 10px;
+}
+
+#skills ul {
+  display: flex;
+}
+
 #skills ul li {
-  background-color: #a7e6ff;
-  align-items: center;
+  margin: 0;
+  width: 50%;
+}
+
+img.skills-img {
+  width: 70%;
+  align-self: center;
+  border: 1px solid #58a1be;
 }
 
 @media screen and (max-width: 768px) {
